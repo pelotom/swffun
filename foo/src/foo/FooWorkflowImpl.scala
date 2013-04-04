@@ -1,6 +1,6 @@
 package foo
 
-import ScalaUtil._
+import MonadicPromise._
 
 class FooWorkflowImpl extends FooWorkflow {
   val activities = new FooActivitiesClientImpl();
