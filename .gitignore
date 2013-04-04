@@ -1,3 +1,4 @@
+foo/.cache
 foo/src/foo/AwsCredentials.properties
 foo/bin/
 foo/gen-src/

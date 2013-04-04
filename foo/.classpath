@@ -8,6 +8,7 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="/Users/tom/aws-java-sdk/1.4.1/lib/aws-java-sdk-1.4.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="/Users/tom/aws-java-sdk/1.4.1/lib/aws-java-sdk-flow-build-tools-1.4.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
