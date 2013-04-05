@@ -11,5 +11,6 @@
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="/Users/tom/aws-java-sdk/1.4.1/lib/aws-java-sdk-1.4.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="/Users/tom/aws-java-sdk/1.4.1/lib/aws-java-sdk-flow-build-tools-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/scalaz-core_2.10-7.1.0-SNAPSHOT.jar" sourcepath="/Users/tom/code/scalaz/core/target/scala-2.10/scalaz-core_2.10-7.1.0-SNAPSHOT-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -8,6 +8,6 @@ import com.amazonaws.services.simpleworkflow.flow.annotations.ActivityRegistrati
 		defaultTaskScheduleToStartTimeoutSeconds=60,
 		defaultTaskStartToCloseTimeoutSeconds=5)
 public interface FooActivities {
-	public String getName();
+	public String getName(int counter);
 	public void printGreeting(String greeting);
 }
