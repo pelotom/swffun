@@ -17,11 +17,10 @@ class FooWorkflowImpl extends FooWorkflow {
   override def startFoo() = effectfully {
     val everybody = for (i <- 1 to 20; if i % 2 == 0) yield {
       val name = getName(i).!
-      if (name == "World #2") {
+      if (name == "World #2")
         printGreeting(s"There you are #2!").!
-      } else {
+      else
         printGreeting("Hello someone else!").!
-      }
       name
     }
     println("finished saying hi to $everybody")
